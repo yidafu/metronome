@@ -1,3 +1,7 @@
+# Created by https://www.toptal.com/developers/gitignore/api/kotlin,gradle,java,swift
+# Edit at https://www.toptal.com/developers/gitignore?templates=kotlin,gradle,java,swift
+
+### Java ###
 # Compiled class file
 *.class
 
@@ -22,3 +26,285 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+### Kotlin ###
+# Compiled class file
+
+# Log file
+
+# BlueJ files
+
+# Mobile Tools for Java (J2ME)
+
+# Package Files #
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+
+### Swift ###
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## User settings
+xcuserdata/
+
+## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
+*.xcscmblueprint
+*.xccheckout
+
+## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
+build/
+DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+## Obj-C/Swift specific
+*.hmap
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+# Package.pins
+# Package.resolved
+# *.xcodeproj
+# Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata
+# hence it is not needed unless you have added a package configuration file to your project
+# .swiftpm
+
+.build/
+
+# CocoaPods
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+# Pods/
+# Add this line if you want to avoid checking in source code from the Xcode workspace
+# *.xcworkspace
+
+# Carthage
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# Carthage/Checkouts
+
+Carthage/Build/
+
+# Accio dependency management
+Dependencies/
+.accio/
+
+# fastlane
+# It is recommended to not store the screenshots in the git repo.
+# Instead, use fastlane to re-generate the screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/#source-control
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Injection
+# After new code Injection tools there's a generated folder /iOSInjectionProject
+# https://github.com/johnno1962/injectionforxcode
+
+iOSInjectionProject/
+
+### Gradle ###
+.gradle
+**/build/
+!src/**/build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Avoid ignore Gradle wrappper properties
+!gradle-wrapper.properties
+
+# Cache of project
+.gradletasknamecache
+
+# Eclipse Gradle plugin generated files
+# Eclipse Core
+.project
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+### Gradle Patch ###
+# Java heap dump
+*.hprof
+
+# End of https://www.toptal.com/developers/gitignore/api/kotlin,gradle,java,swift
+.kotlin/metadata/kotlinTransformedCInteropMetadataLibraries/.composeApp-appleMain.cinteropLibraries
+.kotlin/metadata/kotlinTransformedCInteropMetadataLibraries/.composeApp-appleTest.cinteropLibraries
+.kotlin/metadata/kotlinTransformedCInteropMetadataLibraries/.composeApp-iosMain.cinteropLibraries
+.kotlin/metadata/kotlinTransformedCInteropMetadataLibraries/.composeApp-iosTest.cinteropLibraries
+.kotlin/metadata/kotlinTransformedCInteropMetadataLibraries/.composeApp-nativeMain.cinteropLibraries
+.kotlin/metadata/kotlinTransformedCInteropMetadataLibraries/.composeApp-nativeTest.cinteropLibraries
+.kotlin/metadata/kotlinTransformedCInteropMetadataLibraries/org.jetbrains.compose.ui-ui-uikit-1.6.10-uikitMain-cinterop/org.jetbrains.compose.ui_ui-uikit-cinterop-utils-DC3XFw.klib
+.kotlin/metadata/kotlinTransformedCInteropMetadataLibraries/org.jetbrains.kotlinx-atomicfu-0.23.2-nativeMain-cinterop/org.jetbrains.kotlinx_atomicfu-cinterop-interop-yBS35w.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/co.touchlab-stately-concurrency-2.0.5-commonMain-CAw19g.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/co.touchlab-stately-concurrency-2.0.5-darwinMain-oJtMMg.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/co.touchlab-stately-concurrency-2.0.5-nativeCommonMain-CAw19g.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/co.touchlab-stately-strict-2.0.5-commonMain-0yIOhQ.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/co.touchlab-stately-strict-2.0.5-nativeCommonMain-0yIOhQ.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/com.github.ajalt.colormath-colormath-3.5.0-commonMain-0e6cpA.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/com.github.ajalt.colormath-colormath-ext-jetpack-compose-3.5.0-commonMain-wi7tng.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/io.insert-koin-koin-compose-3.6.0-wasm-alpha2-commonMain-DO_R0g.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/io.insert-koin-koin-core-3.5.3-commonMain-CRvD8w.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/io.insert-koin-koin-core-3.5.3-darwinMain-aZwBXw.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/io.insert-koin-koin-core-3.5.3-nativeMain-CRvD8w.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/io.insert-koin-koin-core-3.6.0-wasm-alpha2-commonMain-JuSJfg.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/io.insert-koin-koin-core-3.6.0-wasm-alpha2-nativeMain-JuSJfg.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.androidx.core-core-bundle-1.0.0-commonMain-cb_PMQ.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.androidx.core-core-bundle-1.0.0-jbMain-cb_PMQ.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.androidx.core-core-bundle-1.0.0-nativeMain-cb_PMQ.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.androidx.lifecycle-lifecycle-common-2.8.0-commonMain-_oGBew.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.androidx.lifecycle-lifecycle-common-2.8.0-nonJvmMain-_oGBew.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.androidx.lifecycle-lifecycle-runtime-2.8.0-commonMain-Cd-IGw.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.androidx.lifecycle-lifecycle-runtime-2.8.0-nativeMain-Cd-IGw.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.androidx.lifecycle-lifecycle-runtime-2.8.0-nonJvmMain-Cd-IGw.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.androidx.lifecycle-lifecycle-runtime-compose-2.8.0-commonMain-mvP4Vw.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.androidx.lifecycle-lifecycle-viewmodel-2.8.0-commonMain-ydSu5Q.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.androidx.lifecycle-lifecycle-viewmodel-2.8.0-nativeMain-ydSu5Q.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.androidx.lifecycle-lifecycle-viewmodel-2.8.0-nonJvmMain-ydSu5Q.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.androidx.lifecycle-lifecycle-viewmodel-compose-2.8.0-commonMain-207ecg.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.androidx.lifecycle-lifecycle-viewmodel-compose-2.8.0-jbMain-207ecg.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.androidx.lifecycle-lifecycle-viewmodel-savedstate-2.8.0-commonMain-KnkPTw.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.androidx.lifecycle-lifecycle-viewmodel-savedstate-2.8.0-jbMain-KnkPTw.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.androidx.navigation-navigation-common-2.7.0-alpha07-commonMain-MNIAkQ.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.androidx.navigation-navigation-common-2.7.0-alpha07-darwinMain-lKvdpQ.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.androidx.navigation-navigation-common-2.7.0-alpha07-jbMain-MNIAkQ.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.androidx.navigation-navigation-common-2.7.0-alpha07-nativeMain-MNIAkQ.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.androidx.navigation-navigation-compose-2.7.0-alpha07-commonMain-_VVO-g.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.androidx.navigation-navigation-compose-2.7.0-alpha07-jbMain-_VVO-g.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.androidx.navigation-navigation-compose-2.7.0-alpha07-nativeMain-jw2VUA.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.androidx.navigation-navigation-runtime-2.7.0-alpha07-commonMain-GH9lnw.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.androidx.navigation-navigation-runtime-2.7.0-alpha07-jbMain-GH9lnw.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.androidx.navigation-navigation-runtime-2.7.0-alpha07-nonJvmMain-GH9lnw.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.androidx.savedstate-savedstate-1.2.0-commonMain-xMdm-g.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.androidx.savedstate-savedstate-1.2.0-nonJvmMain-xMdm-g.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.animation-animation-1.6.10-commonMain-5jNXZw.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.animation-animation-1.6.10-jsNativeMain-5jNXZw.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.animation-animation-1.6.10-nativeMain-tpXTFg.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.animation-animation-core-1.6.10-commonMain-jNz1Aw.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.animation-animation-core-1.6.10-jbMain-jNz1Aw.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.animation-animation-core-1.6.10-jsNativeMain-jNz1Aw.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.animation-animation-core-1.6.10-uikitMain-2J6wbg.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.annotation-internal-annotation-1.6.10-commonMain-cNNKSA.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.annotation-internal-annotation-1.6.10-nonJvmMain-cNNKSA.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.collection-internal-collection-1.6.10-commonMain-hcu3Ug.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.collection-internal-collection-1.6.10-jbMain-hcu3Ug.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.collection-internal-collection-1.6.10-jsNativeMain-hcu3Ug.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.components-components-resources-1.6.10-blockingMain-44UCqg.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.components-components-resources-1.6.10-commonMain-44UCqg.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.components-components-resources-1.6.10-iosMain-mlvQUA.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.components-components-resources-1.6.10-nativeMain-mlvQUA.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.components-components-resources-1.6.10-skikoMain-44UCqg.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.components-components-ui-tooling-preview-1.6.10-commonMain--i3iSw.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.foundation-foundation-1.6.10-commonMain-dXXsCQ.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.foundation-foundation-1.6.10-darwinMain-aASdXg.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.foundation-foundation-1.6.10-jsNativeMain-dXXsCQ.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.foundation-foundation-1.6.10-nativeMain-aASdXg.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.foundation-foundation-1.6.10-skikoMain-dXXsCQ.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.foundation-foundation-1.6.10-uikitMain-aASdXg.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.foundation-foundation-layout-1.6.10-commonMain-89e7lw.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.foundation-foundation-layout-1.6.10-jsNativeMain-89e7lw.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.foundation-foundation-layout-1.6.10-skikoMain-89e7lw.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.foundation-foundation-layout-1.6.10-uikitMain-BKR0pA.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.material-material-1.6.10-commonMain-tGo7Ag.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.material-material-1.6.10-jsNativeMain-tGo7Ag.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.material-material-1.6.10-nativeMain-33WlwA.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.material-material-1.6.10-skikoMain-tGo7Ag.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.material-material-icons-core-1.6.10-commonMain-XjyzjQ.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.material-material-ripple-1.6.10-commonMain-8kHg7A.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.material-material-ripple-1.6.10-nativeMain-zsMeyQ.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.material3-material3-1.6.10-commonMain-0hrc0g.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.material3-material3-1.6.10-darwinMain-rFGDeg.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.material3-material3-1.6.10-jsNativeMain-0hrc0g.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.material3-material3-1.6.10-nativeMain-rFGDeg.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.material3-material3-1.6.10-skikoMain-0hrc0g.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.runtime-runtime-1.6.10-commonMain-CVJWAg.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.runtime-runtime-1.6.10-jbMain-CVJWAg.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.runtime-runtime-1.6.10-jsNativeMain-CVJWAg.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.runtime-runtime-1.6.10-nativeMain-CVJWAg.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.runtime-runtime-1.6.10-uikitMain-LSh9lw.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.runtime-runtime-saveable-1.6.10-commonMain-pCPplQ.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.ui-ui-1.6.10-commonMain-Eh674w.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.ui-ui-1.6.10-darwinMain-BVAqnw.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.ui-ui-1.6.10-jsNativeMain-Eh674w.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.ui-ui-1.6.10-nativeMain-BVAqnw.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.ui-ui-1.6.10-skikoMain-Eh674w.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.ui-ui-1.6.10-uikitMain-BVAqnw.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.ui-ui-geometry-1.6.10-commonMain-zDj2GQ.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.ui-ui-graphics-1.6.10-commonMain-jqr5iw.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.ui-ui-graphics-1.6.10-jsNativeMain-jqr5iw.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.ui-ui-graphics-1.6.10-nativeMain-M9RlEw.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.ui-ui-graphics-1.6.10-skikoExcludingWebMain-jqr5iw.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.ui-ui-graphics-1.6.10-skikoMain-jqr5iw.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.ui-ui-text-1.6.10-commonMain-aUvkxg.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.ui-ui-text-1.6.10-darwinMain-DK5x5Q.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.ui-ui-text-1.6.10-jsNativeMain-aUvkxg.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.ui-ui-text-1.6.10-nativeMain-DK5x5Q.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.ui-ui-text-1.6.10-skikoMain-aUvkxg.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.ui-ui-uikit-1.6.10-uikitMain-DC3XFw.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.ui-ui-unit-1.6.10-commonMain-vwDMdg.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.ui-ui-unit-1.6.10-jbMain-vwDMdg.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.ui-ui-unit-1.6.10-jsNativeMain-vwDMdg.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.ui-ui-util-1.6.10-commonMain-LLOBPg.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.compose.ui-ui-util-1.6.10-uikitMain-4Hpl6Q.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.kotlin-kotlin-stdlib-2.0.0-commonMain-2bbUHA.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.kotlinx-atomicfu-0.23.2-commonMain-yBS35w.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.kotlinx-atomicfu-0.23.2-nativeMain-yBS35w.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.kotlinx-kotlinx-coroutines-core-1.8.0-commonMain-UxhG-g.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.kotlinx-kotlinx-coroutines-core-1.8.0-concurrentMain-UxhG-g.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.kotlinx-kotlinx-coroutines-core-1.8.0-nativeDarwinMain-sy5nKg.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.kotlinx-kotlinx-coroutines-core-1.8.0-nativeMain-UxhG-g.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.kotlinx-kotlinx-coroutines-core-1.8.1-commonMain-XanZ2w.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.kotlinx-kotlinx-coroutines-core-1.8.1-concurrentMain-XanZ2w.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.kotlinx-kotlinx-coroutines-core-1.8.1-nativeDarwinMain-sy5nKg.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.kotlinx-kotlinx-coroutines-core-1.8.1-nativeMain-XanZ2w.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.kotlinx-kotlinx-datetime-0.5.0-commonMain-iqDvsQ.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.kotlinx-kotlinx-datetime-0.5.0-darwinMain-FcA7tA.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.kotlinx-kotlinx-datetime-0.5.0-nativeMain-iqDvsQ.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.kotlinx-kotlinx-serialization-core-1.6.2-commonMain-0z2eOA.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.kotlinx-kotlinx-serialization-core-1.6.2-nativeMain-0z2eOA.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.skiko-skiko-0.8.4-commonMain-DbI_Jg.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.skiko-skiko-0.8.4-darwinMain-1T2ZCw.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.skiko-skiko-0.8.4-iosMain-1T2ZCw.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.skiko-skiko-0.8.4-nativeJsMain-DbI_Jg.klib
+.kotlin/metadata/kotlinTransformedMetadataLibraries/org.jetbrains.skiko-skiko-0.8.4-nativeMain-DbI_Jg.klib
+.kotlin/sessions/kotlin-compiler-3343408405650935443.salive
+.idea/.gitignore
+.idea/compiler.xml
+.idea/deploymentTargetDropDown.xml
+.idea/deploymentTargetSelector.xml
+.idea/gradle.xml
+.idea/jarRepositories.xml
+.idea/kotlinc.xml
+.idea/ktlint-plugin.xml
+.idea/misc.xml
+.idea/vcs.xml
+.idea/artifacts/composeApp_desktop.xml
+.idea/artifacts/composeApp_wasm_js.xml
+.idea/inspectionProfiles/Project_Default.xml
+.fleet/run.json
+.DS_Store
+local.properties
